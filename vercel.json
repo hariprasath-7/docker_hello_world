@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "api": {
+      "root": "fastapi_doc",
+      "runtime": "container",
+      "entrypoint": "Dockerfile.vercel"
+    }
+  }
+}
