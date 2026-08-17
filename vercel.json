@@ -3,7 +3,9 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://api.vercel.internal"
+      "destination": {
+        "service": "api"
+      }
     }
   ],
   "services": {
